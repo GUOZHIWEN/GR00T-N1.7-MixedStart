@@ -1,0 +1,11 @@
+MoS: Mixed-Start Flow Matching for Action Generation
+
+This distribution contains modifications to NVIDIA Isaac-GR00T for conditional
+semantic flow sources, strict past-only action-history alignment, mixed-source
+consistency supervision, deployment controls, open-loop evaluation, and release
+validation. The upstream source and third-party dependencies retain their
+original copyright and license notices. See ATTRIBUTIONS.md.
+
+The official mos_best and mos_best_no_mem model cards, datasets, and reported
+open-loop results are research artifacts. They are not a robot-safety certification.
+DROID data and model/data dependencies remain subject to their original terms.

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "dataset_repo": "joyogzw/GR00T-N1.7-MixedStart-Datasets",
+  "base_revision": "0a32001210e4745168f2ca23a11cd1fc2d735fb1",
+  "revision_note": "Four public archives are available at this revision with the recorded byte sizes. scripts/prepare_mos_data.py verifies SHA256 and size on download before extraction.",
+  "files": {
+    "mix_droid_synth_train.tar.gz": {
+      "size": 797179904,
+      "sha256": "90c20499baa0848a818370b77fe64c124bf05b885b733d8f16f41895cf5b3665",
+      "dataset_dir": "mix_droid_synth_train",
+      "episodes": 400,
+      "frames": 108292
+    },
+    "mix_droid_synth_eval.tar.gz": {
+      "size": 81539650,
+      "sha256": "84eb05e5cf46ddb98c0eb42516e315d1fb04c0ae232728263f5e3cf3fd312c0e",
+      "dataset_dir": "mix_droid_synth_eval",
+      "episodes": 40,
+      "frames": 10735
+    },
+    "synth_mixture_eval_db7_17d.tar.gz": {
+      "size": 7071040,
+      "sha256": "eefa28fd40428ad1e84a1e148e79f6e0549433d760cde6ee43798350e5c37f88",
+      "dataset_dir": "synth_mixture_eval_db7_17d",
+      "episodes": 10,
+      "frames": 2000
+    },
+    "droid_subset_eval.tar.gz": {
+      "size": 74506374,
+      "sha256": "e8b6115f838f303ea4feb1da25f4011c437af404689211a6e2c122481a60acc5",
+      "dataset_dir": "droid_subset_eval",
+      "episodes": 30,
+      "frames": 8735
+    }
+  }
+}

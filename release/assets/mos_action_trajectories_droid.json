@@ -1,0 +1,25 @@
+{
+  "domain": "droid",
+  "evaluation_dir": "runs/trajectory_release_droid_es0",
+  "semantic_label": "mos_best",
+  "gaussian_label": "mos_best_no_mem",
+  "semantic_model": "release/mos_best",
+  "gaussian_model": "release/mos_best_no_mem",
+  "evaluation_seed": 0,
+  "trajectory_id": 2,
+  "representative_rule": "upper-median Gaussian/semantic effective-MSE ratio",
+  "gaussian_over_semantic_mse_ratio": 0.9504409983539881,
+  "dims": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "trajectory_mse_effective": {
+    "mos_best": 0.0156488290015817,
+    "mos_best_no_mem": 0.014873288659334153
+  },
+  "trajectory_npz": "runs/trajectory_release_droid_es0/traj_2_trajectory.npz",
+  "figure": "release/assets/mos_action_trajectories_droid.png",
+  "scope": "open-loop replay; not closed-loop success or real-robot performance"
+}

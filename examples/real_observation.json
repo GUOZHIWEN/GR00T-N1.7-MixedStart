@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "dataset_path": "data/synth_mixture_eval_db7_17d",
+  "source_archive": "synth_mixture_eval_db7_17d.tar.gz",
+  "source_dataset_repo": "joyogzw/GR00T-N1.7-MixedStart-Datasets",
+  "source_dataset_revision": "0a32001210e4745168f2ca23a11cd1fc2d735fb1",
+  "source_archive_sha256": "eefa28fd40428ad1e84a1e148e79f6e0549433d760cde6ee43798350e5c37f88",
+  "episode_index": 0,
+  "frame_index": 16,
+  "timestamp": 1.0666666666666667,
+  "task": "indicate all the blocks one after another",
+  "task_source": "episode.high_level_task",
+  "high_level_task": "indicate all the blocks one after another",
+  "frame_instruction": "point at the yellow block at (0.30, 0.22)",
+  "state_layout": {
+    "eef_9d": [
+      0,
+      9
+    ],
+    "gripper_position": [
+      9,
+      10
+    ],
+    "joint_position": [
+      10,
+      17
+    ]
+  },
+  "video_sources": {
+    "video.exterior_image_1_left": {
+      "video": "videos/chunk-000/observation.images.exterior_1_left/episode_000000.mp4",
+      "frame_indices": [
+        15,
+        16
+      ]
+    },
+    "video.wrist_image_left": {
+      "video": "videos/chunk-000/observation.images.wrist_left/episode_000000.mp4",
+      "frame_indices": [
+        15,
+        16
+      ]
+    }
+  },
+  "frame_order": "older frame first, current frame and state second",
+  "color_order": "RGB",
+  "units": "unchanged from dataset",
+  "robot_observation": false,
+  "note": "Real decoded synthetic evaluation sample, not a real-robot observation; inference only."
+}

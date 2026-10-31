@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Mixed-Start Flow Matching for Action Generation"
+message: "Please cite the technical report when using this code or the released models."
+type: software
+authors:
+  - family-names: Guo
+    given-names: Zhiwen
+date-released: 2026-10-30
+license: Apache-2.0
+repository-code: "https://github.com/GUOZHIWEN/GR00T-N1.7-MixedStart"
+keywords:
+  - robotics
+  - vision-language-action
+  - flow-matching
+  - action-generation
+  - GR00T

@@ -1,0 +1,25 @@
+{
+  "domain": "synth",
+  "evaluation_dir": "runs/trajectory_release_synth_es0",
+  "semantic_label": "mos_best",
+  "gaussian_label": "mos_best_no_mem",
+  "semantic_model": "release/mos_best",
+  "gaussian_model": "release/mos_best_no_mem",
+  "evaluation_seed": 0,
+  "trajectory_id": 7,
+  "representative_rule": "upper-median Gaussian/semantic effective-MSE ratio",
+  "gaussian_over_semantic_mse_ratio": 1.2618955598074795,
+  "dims": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "trajectory_mse_effective": {
+    "mos_best": 0.049215830862522125,
+    "mos_best_no_mem": 0.06210523843765259
+  },
+  "trajectory_npz": "runs/trajectory_release_synth_es0/traj_7_trajectory.npz",
+  "figure": "release/assets/mos_action_trajectories_synth.png",
+  "scope": "open-loop replay; not closed-loop success or real-robot performance"
+}

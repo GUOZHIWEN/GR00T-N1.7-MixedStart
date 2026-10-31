@@ -1,0 +1,34 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local datasets, validation scratch data and immutable download cache
+data/
+.cache/
+.validation/
+GR00T-N1.7-3B/
+
+# Training, evaluation and inference outputs
+runs/
+*.log
+wandb/
+# Only publish the English paper PDF from paper/.
+paper/*
+!paper/Mixed-Start_Flow_Matching_for_Action_Generation_v1.pdf
+assets/db28_action_trajectories_synth.json
+assets/db28_action_trajectories_droid.json
+assets/db28_action_trajectories_clear_gap_synth.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do not ignore release/, assets/, tests/, locks or dataset checksums.
